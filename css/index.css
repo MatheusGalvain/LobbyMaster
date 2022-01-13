@@ -1,0 +1,269 @@
+/* BODY */
+body{
+    background-color: white;
+    background-size: cover;
+    font-family: 'Segoe UI';
+    padding-left: 180px;
+    text-align: auto;
+    width: auto;
+    padding-right: 50px;
+    zoom:100%;
+   
+}
+  
+.h2-escrita{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 28px;
+}
+
+    @font-face {
+    font-family: 'Segoe UI';
+    src: url(../fonts/SEGOEUI.TTF);
+} 
+/* ----------X-------- */
+
+
+/* imagem-logo do master */
+.div-logtype{
+    animation: go-back 2s;
+    padding-left: 50px;
+    margin: 30px 0px 30px 0px;
+    background-position: left;
+    
+    
+}
+
+.img-grafico{
+    width: 300px;
+    height: 250px;
+   
+}
+
+/* TRANSIÇÃO CHEGANDO DA DIREITA PRA ESQUERDA - logo do master */
+@keyframes go-back 
+    {
+    from {
+      transform: translateX(250px);
+         }
+    to {
+      transform: translateX(0);
+       }
+    } 
+/* ----------X-------- */
+
+.botaoantigo:hover
+{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+
+/* BOTÃO ATIVO */
+.botao:active
+{
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    
+}
+
+/* BOTÃO - MAIOR */
+.botao.maior {
+    width: 270px;
+}
+
+/* BOTÃO - PADRÃO */
+.botao{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    font-family: 'Segoe UI';
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0.6rem 1.9rem;
+    font-size: 1.25rem;
+    border-radius: 3px;
+    text-decoration: none;
+    width: 170px;
+    display: inline-block;
+    margin: 15px 0px 5px 0px;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    background-color: #468140;
+    border: 2px solid #006600;
+}
+
+/*
+ATACADO TORANJA = #F3611F
+ATACADO ABACATE = #468140
+
+VAREJO VERDE CLARO = #8CD50B
+VAREJO VERDE AFRODESCENDENTE = #1A6046*/
+
+/* BOTÃO - Verde */
+.botao.bege {
+    background-color: #004d4d;
+    border: 2px solid #008080; /* Azul */
+}
+
+/* BOTÃO - Verde */
+.botao.verde {
+    background-color: #3d5c5c;
+    border: 2px solid #14ce71; /* Verde */
+}
+
+/* BOTÃO - Laranja */
+.botao.laranja {
+    background-color: #F3611F;
+    border: 2px solid #b34700; /* Marrom */
+}
+
+
+/* BOTÃO - Lilás */
+.botao.lilas {
+    background-color: #7B68EE;
+    border: 2px solid #ffcce6; /* Lilás */
+}
+
+/* BOTÃO - Amarelo */
+.botao.amarelo {
+    border: 2px solid #550a08; /* vermelho */
+    background-color: #B22222; 
+   
+}
+
+/* BOTÃO - Cinza escuro */
+.botao.azulF {
+    border: 2px solid #0099ff; /* Azul */
+    background-color: #003333;
+   
+}
+
+/* BOTÃO - Cinza */
+.botao.cinza {
+    border: 2px solid #3a4861; /* Amarelo */
+    background-color: #708090;
+}
+
+
+/* BOTÃO - Preto */
+.botao.preto{
+    border: 2px solid #4CAF50; /* Verde */
+    background-color: black;
+}
+
+
+
+/* ----------X-------- */
+
+/* TRANSIÇÕES */
+
+    /* CONTROLE DE ENTREGAS - SAO PAULO - RIO GRANDE DO sul */
+.botao:active {
+    box-shadow: 0 0 10px 0 white inset, 0 0 5px 2px #468140;
+  }
+  
+  .botao.laranja:active {
+    box-shadow: 0 0 10px 0 white inset, 0 0 5px 2px #b34700;
+  }
+
+
+    /* CHECKLISTS */
+.botao.bege:active {
+    box-shadow: 0 0 10px 0 WHITE inset, 0 0 5px 2px #008080;
+  }
+
+    /* CONFERENCIA */
+.botao.verde:active {
+    box-shadow: 0 0 10px 0 WHITE inset, 0 0 5px 2px #00994d;
+  }
+
+    /* DASHBOARD */
+.botao.lilas:active {
+    box-shadow: 0 0 10px 0 WHITE inset, 0 0 5px 2px #7B68EE;
+  }
+
+    /* QUEBRAS */
+.botao.amarelo:active {
+    box-shadow: 0 0 10px 0 WHITE inset, 0 0 5px 2px #B22222;
+  }
+
+    /* PATRIMONIAL */
+.div-botaoP:active {
+    box-shadow: 0 0 10px 0 WHITE inset, 0 0 5px 2px #003333;
+  }
+
+    /* REGISTROS DEMONSTRATIVOS */
+.botao.cinza:active {
+    box-shadow: 0 0 10px 0 WHITE inset, 0 0 5px 2px #fffffe;
+  }
+
+    /* CONHECIMETOS TI */
+.botao.preto:active {
+    box-shadow: 0 0 10px 0 green inset, 0 0 5px 2px green;
+  }
+
+ /*----------X-------- */
+
+  /*DARK BUTTON */
+  .checkbox:checked + .label .ball{
+      transform: translate(24px);
+      background-image: url(../img/peladinho.png);
+  }
+  
+  
+  
+  .checkbox{
+      opacity: 0;
+      position: absolute;
+
+  }
+
+  .label{
+      background-color: #111;
+      display: flex;
+      height: 20px;
+      width: 50px;
+      border-radius: 50px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px;
+      position: relative;
+    }
+
+
+    
+
+  .fa-moon{
+      color: #f1c40f;
+
+  }
+  
+  .ball{
+    width: 26px;
+    height: 26px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+
+  .fa-sun{
+      color: #f39c12;
+      width: 18px;
+
+  }
+
+  body.dark{
+      background-color: #292C35;
+      color:white
+  }
+/*----------X-------- */
+
+
+.img-aprese{
+    width: 350px;
+
+}
